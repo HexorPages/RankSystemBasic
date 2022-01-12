@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(12,12,12);
+    background: radial-gradient(circle, rgba(12,12,12,1) 50%, rgba(4,4,4,1) 100%);
+}
+.rank-back{  
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 800px;
+    height: 260px;
+    background-color: rgb(15,13,15);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.72);
+}
+.rank-title{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    color: rgb(141, 141, 141);
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.level-bar-back{
+    border-radius: 2px;
+    width: 300px;
+    height: 3px;
+    background-color: rgb(20,17,20);
+}
+#leverl-bar{
+    height: 100%;
+    background-color: rgb(173,24,67);
+}
+.level-back{
+    padding-top: 10px;
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 3px;
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(20,17,20);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.289);
+}
+.level-back i{
+    font-size: 25px;
+    margin-right: 3px;
+}
+#now-level-exp{
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+    top: 54px;
+    font-weight: 400 !important;
+}
+#next-level-exp{
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    top: 54px;
+    font-weight: 400 !important;
+}
+#now-level-title{
+    color:rgb(196, 196, 196);
+    position: absolute;
+    top: -20px;
+    font-weight: bold;
+    left: 4px;
+    font-size: 16px;
+}
+#next-level-title{
+    color:rgb(196, 196, 196);
+    position: absolute;
+    top: -20px;
+    font-weight: bold;
+    right: 4px;
+    font-size: 16px;
+}
+@media only screen and (max-width: 768px) {
+    .rank-back{
+        width: 460px;
+    }
+    #now-level-exp{
+        font-size: 16px;
+    }
+    #next-level-exp{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
